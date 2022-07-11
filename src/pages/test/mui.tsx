@@ -7,8 +7,8 @@ export default function BasicButtons() {
     <>
     <Appbar></Appbar>
     <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
+      <Button variant="text" className="bg-red-500 hover:bg-red-600">Text</Button>
+      <Button variant="contained" disableElevation>Contained</Button>
       <Button variant="outlined">Outlined</Button>
     </Stack>
     </>
